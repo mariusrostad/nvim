@@ -20,3 +20,4 @@ vim.api.nvim_set_keymap("n", "<leader>gg", "<cmd>lua _lazygit_toggle()<CR>", {no
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+vim.o.scrolloff = 15
