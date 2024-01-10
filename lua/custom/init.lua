@@ -1,8 +1,7 @@
 require('custom.mappings')
-require('custom.lazyvim')
+require('custom.lazygit')
 
 local trouble = require("trouble.providers.telescope")
-
 local telescope = require("telescope")
 
 telescope.setup {
