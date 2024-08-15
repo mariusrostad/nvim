@@ -9,6 +9,7 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', { desc = 'Jump panel right' })
 
 vim.keymap.set('n', '<C-e>', '<Cmd>Neotree toggle<CR>', { desc = 'Neotree toggle' })
 vim.keymap.set('n', '<C-s>', '<Cmd>write<CR>', { desc = 'Save' })
+vim.keymap.set('n', '<leader>fs', '<Cmd>write<CR>', { desc = '[F]ile Save' })
 
 -- Trouble settings
 vim.keymap.set('n', '<leader>xx', function()
